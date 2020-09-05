@@ -12,8 +12,11 @@
 		//import fontkit from '@pdf-lib/fontkit';
 
 
-		const url = 'https://raw.githack.com/thamerx/PDF-numbering-inbrowser/master/fonts/Cairo-Black.ttf'
-      const fontBytes = await fetch(url).then(res => res.arrayBuffer())
+		const fontPath = './fonts/Cairo-Black.ttf'
+		
+		
+
+      const fontBytes = await fetch(fontPath, {credentials: 'same-origin'}).then(res => res.arrayBuffer())
 
       // Create a new PDFDocument
       const pdfDoc = await PDFDocument.load(fileDropped)
