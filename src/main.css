@@ -144,6 +144,15 @@ box-shadow: 0px 0px 1px #474747;
   background-color: #42363d;
 }
 
+input[type="color" i] {
+    appearance: square-button;
+    width: 44px;
+    height: 44px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
 p.centerBelowSmallFontSizeInput {
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
