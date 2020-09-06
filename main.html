@@ -1,6 +1,10 @@
 <html><head>
 	<title>PDF Numbering</title>
 	  <link rel="stylesheet" href="./src/main.css">
+	  <link rel="stylesheet" href="./src/togglebuttons.css">
+
+
+
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=0.6">
@@ -31,9 +35,12 @@
 
 			<!-- <input type="number" name="name" id="fontSize" value="20" min="1" max="40" />-->
 
-			</p><p>
+			</p>
 			
-					</p><p class="centerBelowSmallInputlol">
+			
+
+	
+			<p class="centerBelowSmallInputlol">
 					
 
 															<br><br>
@@ -49,23 +56,31 @@
 
                 <br>
 				<label for="fontSize">  <b>Alignment</b>  </label>
-			<br><br>
-			  <input type="radio" id="top" name="verticalAlignment" value="top">
-			  <label for="female">Top</label>
-			  <input type="radio" id="middle" name="verticalAlignment" value="middle">
-			  <label for="other">Middle</label>
-			  <input type="radio" id="bottom" name="verticalAlignment" value="bottom" checked="checked">
-			  <label for="other">Bottom</label> <br> 
+			<br><br> </p>
+				<br><br>
+			  <div class="toggle">
+		<input type="radio" name="verticalAlignment" value="top" id="top"  />
+		<label for="top">Top&ensp;&ensp;</label>
+		<input type="radio" name="verticalAlignment" value="middle" id="middle" />
+		<label for="middle">&ensp;&ensp;&ensp;&ensp;&ensp;Middle&ensp;&ensp;&ensp;&ensp;</label>
+		<input type="radio" name="verticalAlignment" value="bottom" id="bottom" checked="checked" />
+		<label for="bottom">Bottom</label>
+		
+	</div>
 
+	<div class="toggle">
 
-			  <input type="radio" id="left" name="horizontalAlignment" value="left">
-			  <label for="male">Left</label>
-			  <input type="radio" id="center" name="horizontalAlignment" value="center" checked="checked">
-			  <label for="female">Center</label>
-			  <input type="radio" id="right" name="horizontalAlignment" value="right">
-			  <label for="other">Right</label> <br> <br>
+		<input type="radio" name="horizontalAlignment" value="left" id="left"  />
+		<label for="left">Left</label>
+		<input type="radio" name="horizontalAlignment" value="center" id="center" checked="checked" />
+		<label for="center">&ensp;&ensp;&ensp;&ensp;&ensp;Center&ensp;&ensp;&ensp;</label>
+		<input type="radio" name="horizontalAlignment" value="right" id="right" />
+		<label for="right">Right</label>
+				</div>
+			  
+			  <p class="centerBelowSmallInput">
 			  			  <label for="fontSize">  <b>Color</b>  </label>
-						  
+						  <br>
 			  <input type="color" id="textColor" name="favcolor" value="#84446D">
 			  
 
