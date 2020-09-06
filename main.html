@@ -1,3 +1,4 @@
+
 <html>
 
   <head>
@@ -8,6 +9,9 @@
     <script src="https://unpkg.com/pdf-lib@1.10.0"></script>
     <script src="https://unpkg.com/downloadjs@1.4.7"></script>
     <script src="https://unpkg.com/@pdf-lib/fontkit@1.0.0"></script>
+
+
+	
   </head>
 
   <body>
@@ -19,13 +23,68 @@
       <input type="file" name="myFile" class="drop-zone__input">
     </div>
 	
-		    <p class="centerBelowSmall">Drop a PDF into the box to number it!</p>
 			
+			<!--<p class="inputStyle">Font size </p>-->
+			<p class="centerBelowSmallInput">
+			<label for="fontSize">  <b>Font size</b>  </label>
+				
+
+
+			<!-- <input type="number" name="name" id="fontSize" value="20" min="1" max="40" />-->
+
+			<p>
+			
+					<p class="centerBelowSmallInputlol">
+					
+
+															<br><br>
+															<div class="number-input">
+															  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+															  <input class="quantity" min="0" name="quantity" id="fontSize" value="20" type="number">
+															  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+															</div>
+
+
+					<p>
+		<p class="centerBelowSmallInput">
+
+
+				<label for="fontSize">  <b>Alignment</b>  </label>
+			<br>
+			  <input type="radio" id="left" name="horizontalAlignment" value="left">
+			  <label for="male">Left</label>
+			  <input type="radio" id="center" name="horizontalAlignment" value="center" checked="checked">
+			  <label for="female">Center</label>
+			  <input type="radio" id="right" name="horizontalAlignment" value="right">
+			  <label for="other">Right</label> <br>
+			  
+			  
+			  <input type="radio" id="top" name="verticalAlignment" value="top" >
+			  <label for="female">Top</label>
+			  <input type="radio" id="middle" name="verticalAlignment" value="middle">
+			  <label for="other">Middle</label>
+			  <input type="radio" id="bottom" name="verticalAlignment" value="bottom" checked="checked">
+			  <label for="other">Bottom</label> <br>
+			  <label for="fontSize">  <b>Color</b>  </label>
+			  <input type="color" id="textColor" name="favcolor" value="#84446D" >
+
+			  	<!-- var nameValue = document.querySelector('input[name="rate"]:checked').value;-->
+
+			</p>
+			
+			<!--<p class="centerBelowSmall"> <br> Drop a PDF into the box to number it!</p>-->
+			
+			<br><br><br><br><br><br>
+			<p class="centerBelowSmall"> <br> Drop a PDF into the box to number it!</p>
+			
+
+
+
 			 <p class="creditMeWhyNot">&ensp;pahko|thamer</p>
 
 	
   <script src="./src/dnd.js"></script>
-  <script src="./src/pdfreq.js"></script>
+  <script  src="./src/pdfreq.js"></script>
 
   </body>
 
