@@ -201,7 +201,7 @@ p.creditMeWhyNot {
   background: #673655;
   width: 51%;
   max-width: 396px;
-  /* height: 150px; */
+  height: 100px; 
   padding: 25px;
   display: flex;
   align-items: center;
