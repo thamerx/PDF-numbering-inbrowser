@@ -6,30 +6,6 @@ body, html {
   -webkit-font-smoothing: antialiased;
 }
 
-fieldset {
-  margin: 0;
-  padding: 2rem;
-  box-sizing: border-box;
-  display: block;
-  border: none;
-  border: solid 1px #CCC;
-  min-width: 0;
-  background-color: #FFF;
-}
-fieldset legend {
-  margin: 0 0 1.5rem;
-  padding: 0;
-  width: 100%;
-  float: left;
-  display: table;
-  font-size: 1.5rem;
-  line-height: 140%;
-  font-weight: 600;
-  color: #333;
-}
-fieldset legend + * {
-  clear: both;
-}
 
 body:not(:-moz-handler-blocked) fieldset {
   display: table-cell;
@@ -102,23 +78,3 @@ body:not(:-moz-handler-blocked) fieldset {
   }
 }
 
-/* STYLING FOR THE STATUS HELPER TEXT FOR THE DEMO */
-.status {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 400;
-}
-.status span {
-  font-weight: 600;
-  color: #B6985A;
-}
-.status span:first-of-type {
-  display: inline;
-}
-.status span:last-of-type {
-  display: none;
-}
-@media (max-width: 800px) {
-  .status span:first-of-type {
-    display: none;
- 
