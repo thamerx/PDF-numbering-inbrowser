@@ -155,7 +155,7 @@
 			// Trigger the browser to download the PDF document
 		download(pdfBytes,filenameplz.replace(/\.[^/.]+$/,"")+"-numbered.pdf","application/pdf");
 		
-		window.alert("Page numbers have been added to ." + filenameplz.replace(/\.[^/.]+$/,"")+"-numbered.pdf");
+		//window.alert("Page numbers have been added to ." + filenameplz.replace(/\.[^/.]+$/,"")+"-numbered.pdf");
     }
 	
 
