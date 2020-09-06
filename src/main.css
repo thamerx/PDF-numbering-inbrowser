@@ -3,7 +3,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #51434C;
+  background: #3c2f37;
   overflow: hidden;
 }
 
@@ -52,25 +52,7 @@ p.centerBelowSmall {
   text-align: center;
 }
 
-p.centerBelowSmallInput {
-font-family: "Courier New", Courier, monospace;
-font-size: 22px;
-letter-spacing: -1px;
-word-spacing: -2.8px;
-color: #FFFFFF;
-font-weight: 400;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: none;
-
-  margin-bottom: -51px;
-  text-align: center;
-
-
-
-
-}
+p.centerBelowSmallInput {font-family: "Quicksand", sans-serif;font-size: 23px;letter-spacing: -1px;word-spacing: -2.8px;color: #FFFFFF;font-weight: 400;text-decoration: none;font-style: normal;font-variant: normal;text-transform: none;margin-bottom: -51px;text-align: center;}
 
 input[type="number"] {
   -webkit-appearance: textfield;
@@ -105,19 +87,33 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .number-input button {
-	outline:none;
-	-webkit-appearance: none;
-	/* background-color: transparent; */
-	border: none;
-	align-items: center;
-	justify-content: center;
-	width: 3rem;
-	/* height: 3rem; */
-	cursor: pointer;
-	margin: 0;
-	position: relative;
-	box-shadow: 0px 0px 1px #474747;
-	/* border-radius: 50%; */
+	
+outline:none;
+	
+-webkit-appearance: none;
+	
+/* background-color: transparent; */
+background-color: #773e63;
+	
+border: none;
+	
+align-items: center;
+	
+justify-content: center;
+	
+width: 3rem;
+	
+/* height: 3rem; */
+	
+cursor: pointer;
+	
+margin: 0;
+	
+position: relative;
+	
+box-shadow: 0px 0px 1px #474747;
+	
+/* border-radius: 50%; */
 }
 
 .number-input button:before,
@@ -127,7 +123,7 @@ input[type=number]::-webkit-outer-spin-button {
   content: '';
   width: 1rem;
   height: 2px;
-  background-color: #212121;
+  background-color: #ffffff;
   transform: translate(-50%, -50%);
 }
 .number-input button.plus:after {
@@ -144,7 +140,8 @@ input[type=number]::-webkit-outer-spin-button {
   height: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #b14da6;
+  color: #ffffff;
+  background-color: #42363d;
 }
 
 p.centerBelowSmallFontSizeInput {
@@ -152,7 +149,7 @@ p.centerBelowSmallFontSizeInput {
   font-size: 25px;
   letter-spacing: 2px;
   word-spacing: -4.2px;
-  color: #000000;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none solid rgb(255, 255, 255);
   font-style: normal;
@@ -192,10 +189,10 @@ p.creditMeWhyNot {
 
 .drop-zone {
   display: block;
-  background: #84446D;
+  background: #673655;
   width: 51%;
   max-width: 396px;
-  height: 198px;
+  height: 150px;
   padding: 25px;
   display: flex;
   align-items: center;
@@ -206,7 +203,7 @@ p.creditMeWhyNot {
   font-size: 32px;
   cursor: pointer;
   color: #CCCCCC;
-  border: 4px dashed #FF3DEA;
+  border: 4px dashed #b368aa;
   border-radius: 10px;
   /*+placement: margin-auto;*/
   margin-left: auto;
