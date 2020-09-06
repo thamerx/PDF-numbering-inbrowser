@@ -10,8 +10,8 @@
     async function modifyPdf(fileDropped, filenameplz) {
 
 
-		//const fontPath = './fonts/Cairo-Black.ttf'
-	    const fontPath = 'https://raw.githack.com/thamerx/PDF-numbering-inbrowser/master/fonts/Cairo-Black.ttf'
+		const fontPath = './fonts/Cairo-Black.ttf'
+	    //const fontPath = 'https://raw.githack.com/thamerx/PDF-numbering-inbrowser/master/fonts/Cairo-Black.ttf'
 
 		
 
