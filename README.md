@@ -1,5 +1,5 @@
 # PDF-numbering-inbrowser
-A simple tool to number PDFs. I made, so when I import them to One Note the page number shows up!
+A simple tool to add page numbers to PDF files. I made, so when I import them to One Note the page number would shows up!
  
  [Try it!](https://raw.githack.com/thamerx/PDF-numbering-inbrowser/master/main.html)
 
