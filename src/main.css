@@ -28,8 +28,8 @@ p.centerLarge {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  left: -5px;
-  top: 214px;
+  /* left: -5px; */
+  top: 150px;
 }
 
 p.centerBelowSmall {
@@ -201,7 +201,7 @@ p.creditMeWhyNot {
   background: #673655;
   width: 51%;
   max-width: 396px;
-  height: 150px;
+  /* height: 150px; */
   padding: 25px;
   display: flex;
   align-items: center;
@@ -218,9 +218,9 @@ p.creditMeWhyNot {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  left: 0;
-  top: 0;
-  margin-top: 285px;
+  /* left: 0; */
+  /* top: 0; */
+  margin-top: 210px;
 }
 
 .drop-zone--over {
